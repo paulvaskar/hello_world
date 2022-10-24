@@ -56,7 +56,7 @@
     
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <configuration>
+        <reporting>
           <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
@@ -88,7 +88,7 @@
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
           </reportPlugins>
-        </configuration>
+        </reporting>
       </plugin>
       
 
