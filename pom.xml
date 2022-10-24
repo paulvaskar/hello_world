@@ -52,7 +52,8 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
         </configuration>
       </plugin>
-
+    
+    <reporting>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
@@ -89,6 +90,8 @@
           </reportPlugins>
         </configuration>
       </plugin>
+      </reporting>
+
     </plugins>
 
     <pluginManagement>
